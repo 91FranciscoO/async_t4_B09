@@ -106,7 +106,7 @@ void loop() {
         if (but1 == LOW){
             send_addr(14);
             send_data(dat);
-            //digitalWrite(LED_PIN, HIGH); para confirmar
+            //digitalWrite(LED_PIN, HIGH); para confirmar que o if activa quando carregamos no botao
             delay (10);
         }
         else if (but2 == LOW){
